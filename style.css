@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#music-player {
+    margin-bottom: 20px;
+}
+
+#playlist {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+#song-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#song-list li {
+    margin-bottom: 10px;
+}
+
+#song-list li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#song-list li a:hover {
+    color: #666;
+}
+/* Existing styles */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.top-nav li:last-child {
+    margin-right: 0;
+}
+
+#search-form {
+    margin-left: 20px;
+}
+
+#search-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #666;
+}
+
+#search-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-form button:hover {
+    background-color: #0056b3;
+}
+
+.social-sharing {
+    margin-left: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
